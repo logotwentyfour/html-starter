@@ -1,0 +1,46 @@
+/* Helpers */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+/* Image Replacement */
+.ir {
+  display : block;
+  overflow : hidden;
+  background-repeat : no-repeat;
+  text-align : left;
+  text-indent : -999em;
+  direction : ltr;
+  width: 0;
+}
+
+
+/* Hide Visually */
+.visually-hidden {
+  position: absolute;
+  margin: -1px;
+  padding: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+  position: static;
+  margin: 0;
+  height: auto;
+  width: auto ;
+  overflow: visible;
+  clip: auto;
+}
+
+/* Start your styles here */
+
+body {
+  color: #333;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}
